@@ -1,5 +1,5 @@
-class HelloWorld {
-    static void main(String[] args) {
-        println 'Hello, World!'
-    }
+// File: vars/hello.groovy
+
+def call(String name) {
+    echo "Hello, ${name}!"
 }
