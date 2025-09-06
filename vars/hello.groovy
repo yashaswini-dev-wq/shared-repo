@@ -1,5 +1,5 @@
-if (age > 18) {
-    println "Adult"
-} else {
-    println "Minor"
+class HelloWorld {
+    static void main(String[] args) {
+        println 'Hello, World!'
+    }
 }
