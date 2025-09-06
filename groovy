@@ -1,5 +1,5 @@
-def greet(user) {
-    return "Hello, $user!"
-}
+// File: vars/hello.groovy
 
-println greet("Yashaswini")
+def call(String name) {
+    echo "Hello, ${name}!"
+}
